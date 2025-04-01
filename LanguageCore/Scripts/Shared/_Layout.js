@@ -1,4 +1,4 @@
-﻿var Layout: {
+﻿var Layout = {
     Actions: {
         toggleNav = function () {
             var sideNavWidth = document.getElementById("mySidenav").style.width;
