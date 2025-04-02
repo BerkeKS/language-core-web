@@ -7,6 +7,12 @@
             } else {
                 sideNavWidth = "0"
             }
-        }
+        },
+        OpenNav: function () {
+            document.getElementById("mySidenav").style.width = "250px";
+        },
+        CloseNav: function () {
+            document.getElementById("mySidenav").style.width = "0";
+        } 
     };
 })();
