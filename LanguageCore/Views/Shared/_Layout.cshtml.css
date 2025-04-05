@@ -136,6 +136,12 @@ body {
     transition: rotate 150ms ease;
 }
 
+img {
+    padding-right: 40px;
+    max-width: 145%;
+    max-height: 145%;
+}
+
 .footer {
     position: fixed;
     bottom: 0;
@@ -144,8 +150,6 @@ body {
     line-height: 60px;
 }
 
-img {
-    padding-right: 40px;
-    max-width: 145%;
-    max-height: 145%;
-}
+.footer div {
+    padding-left: 10%;
+} 
