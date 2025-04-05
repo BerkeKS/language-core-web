@@ -143,7 +143,14 @@ img {
 }
 
 .container {
-    margin-left: 15%
+    align-items: center;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+.footer-container {
+    margin-left: 10%;
 }
 
 .footer {
