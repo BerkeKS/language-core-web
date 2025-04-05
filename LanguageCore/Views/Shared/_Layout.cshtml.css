@@ -143,3 +143,9 @@ body {
     white-space: nowrap;
     line-height: 60px;
 }
+
+img {
+    padding-right: 40px;
+    max-width: 145%;
+    max-height: 145%;
+}
