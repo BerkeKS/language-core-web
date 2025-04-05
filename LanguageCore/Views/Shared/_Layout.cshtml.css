@@ -30,7 +30,7 @@ body {
     padding: 5px 1em;
     background-image: linear-gradient(#00004d, #e6f2ff);
     border-right: 1px solid white;
-    position: sticky;
+    position: absolute;
     top: 0;
     align-self: start;
     transition: 300ms ease-in-out;
@@ -142,14 +142,14 @@ img {
     max-height: 145%;
 }
 
+.container {
+    margin-left: 15%
+}
+
 .footer {
     position: fixed;
     bottom: 0;
     width: 100%;
     white-space: nowrap;
-    line-height: 60px;
+    line-height: 45px;
 }
-
-.footer div {
-    padding-left: 10%;
-} 
