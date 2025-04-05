@@ -30,12 +30,13 @@ body {
     padding: 5px 1em;
     background-image: linear-gradient(#00004d, #e6f2ff);
     border-right: 1px solid white;
-    position: absolute;
+    position: fixed;
     top: 0;
     align-self: start;
     transition: 300ms ease-in-out;
     overflow: hidden;
     text-wrap: nowrap;
+    z-index: 1;
 }
 
 #sidebar.close{
@@ -144,9 +145,13 @@ img {
 
 .container {
     align-items: center;
-    margin-left: 10%;
+    margin-left: 5%;
     display: grid;
     grid-template-columns: 150px auto;
+}
+
+.container main {
+    margin: 10vh 0 0 5%;
 }
 
 .footer-container {
@@ -159,4 +164,5 @@ img {
     width: 100%;
     white-space: nowrap;
     line-height: 45px;
+    z-index:2;
 }
