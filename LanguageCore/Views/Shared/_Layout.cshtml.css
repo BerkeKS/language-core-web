@@ -17,6 +17,7 @@ html {
 }
 
 body {
+    background-image: linear-gradient(white, #e6f2ff); 
     min-height: 100vh;
     min-height: 100dvh;
     display: grid;
