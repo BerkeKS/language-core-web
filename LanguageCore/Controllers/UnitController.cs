@@ -8,6 +8,8 @@ namespace LanguageCore.Controllers
         // GET: UnitController
         public ActionResult Index()
         {
+            ViewBag.UnitAmount = 10;
+
             return View();
         }
 
