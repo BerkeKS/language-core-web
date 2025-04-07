@@ -10,6 +10,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LangageCoreAPI", "LangageCo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanguageCoreAPI", "LanguageCoreAPI\LanguageCoreAPI.csproj", "{792274C1-CE2C-4F0A-911B-7D6C8AA12258}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LanguageCoreLogic", "LanguageCoreLogic", "{E2E85422-0C18-4065-B96E-733EF75424EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanguageCoreLogic", "LanguageCoreLogic\LanguageCoreLogic.csproj", "{7757F4F2-B874-4D8D-845F-4B2D2E2F3D2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +28,10 @@ Global
 		{792274C1-CE2C-4F0A-911B-7D6C8AA12258}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{792274C1-CE2C-4F0A-911B-7D6C8AA12258}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{792274C1-CE2C-4F0A-911B-7D6C8AA12258}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7757F4F2-B874-4D8D-845F-4B2D2E2F3D2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7757F4F2-B874-4D8D-845F-4B2D2E2F3D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7757F4F2-B874-4D8D-845F-4B2D2E2F3D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7757F4F2-B874-4D8D-845F-4B2D2E2F3D2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -31,6 +39,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A8389F45-1EC5-497F-B424-25829F09B7B0} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{792274C1-CE2C-4F0A-911B-7D6C8AA12258} = {505585F5-2142-4AAD-A90E-50EF186634E0}
+		{7757F4F2-B874-4D8D-845F-4B2D2E2F3D2E} = {E2E85422-0C18-4065-B96E-733EF75424EF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C80785DF-B748-44BD-8F3A-EDFE3B5241C0}
