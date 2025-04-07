@@ -145,7 +145,6 @@ img {
 }
 
 .container {
-    align-items: center;
     margin-left: 5%;
     display: grid;
     grid-template-columns: 150px auto;
@@ -153,6 +152,10 @@ img {
 
 .container main {
     margin: 10vh 0 0 5%;
+}
+
+.lc-logo {
+    margin-top: 200%;
 }
 
 .footer-container {
