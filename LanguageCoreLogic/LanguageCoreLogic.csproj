@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7757F4F2-B874-4D8D-845F-4B2D2E2F3D2E}</ProjectGuid>
+    <ProjectGuid>{AEFDA629-41B3-4261-A140-F282264B7CB1}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>LanguageCoreLogic</RootNamespace>
     <AssemblyName>LanguageCoreLogic</AssemblyName>
