@@ -1,19 +1,32 @@
 ﻿using System;
+using Oracle.ManagedDataAccess.Client;
 
-public class PCK_UNITS : OracleCommonManager
+class Program
 {
-	private const string packageName = "PCK_UNITS";
-	public PCK_UNITS(string ConnectionString) : base (ConnectionString) { }
-    public PCK_UNITS(IDbConnection dbConnection) : base(dbConnection) { }
-    public PCK_UNITS(IDbConnection dbConnection, bool connectionControlManual) : base(ConnectionString, connectionControlManual) { }
-    public PCK_UNITS(ConnectionTypes connectionTypes) : base(connectionTypes) { }
-
-    public DataTable Get_Units(decimal punit_number)
+    static void Main()
     {
-        List<Parameter> parameterList = new List<Parameter>();
-        parameterList.Add(new Parameter {Name = "PFNCRESULT", Direction=ParameterDirection.ReturnValue, Value = null, ParamType = ParamTypes.tRefCursor, UdtName = string.Empty});
-        string procedureName = string.Format("{0}.{1}", packageName, "Get_Units");
-        this.ExecuteStoredProcedure(parameterList, ref parameterList);
-        return (DataTable)parameterList.First(object => object.Name == "PFNCRESULT").Value;
+        string connectionString = "User Id=your_user;Password=your_password;Data Source=your_datasource";
+
+        using (OracleConnection conn = new OracleConnection(connectionString))
+        {
+            conn.Open();
+
+            using (OracleCommand cmd = new OracleCommand("my_package.get_employee_name", conn))
+            {
+                cmd.CommandType = System.Data.CommandType.StoredProcedure;
+
+                // Input parameter
+                cmd.Parameters.Add("p_emp_id", OracleDbType.Int32).Value = 101;
+
+                // Output parameter
+                var output = new OracleParameter("p_name", OracleDbType.Varchar2, 100);
+                output.Direction = System.Data.ParameterDirection.Output;
+                cmd.Parameters.Add(output);
+
+                cmd.ExecuteNonQuery();
+
+                Console.WriteLine("Employee Name: " + output.Value.ToString());
+            }
+        }
     }
 }

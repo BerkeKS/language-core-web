@@ -19,9 +19,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanguageCoreLogic", "LanguageCoreLogic\LanguageCoreLogic.csproj", "{AEFDA629-41B3-4261-A140-F282264B7CB1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PackageFiles", "PackageFiles", "{35C4E571-0A76-4E0B-AB09-B810E7194F23}"
-	ProjectSection(SolutionItems) = preProject
-		Class1.cs = Class1.cs
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
