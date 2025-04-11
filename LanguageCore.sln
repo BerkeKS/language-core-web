@@ -18,11 +18,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LanguageCoreLogic", "Langua
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanguageCoreLogic", "LanguageCoreLogic\LanguageCoreLogic.csproj", "{AEFDA629-41B3-4261-A140-F282264B7CB1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PackageFiles", "PackageFiles", "{35C4E571-0A76-4E0B-AB09-B810E7194F23}"
-	ProjectSection(SolutionItems) = preProject
-		PCK_UNITS.cs = PCK_UNITS.cs
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,7 +49,6 @@ Global
 		{792274C1-CE2C-4F0A-911B-7D6C8AA12258} = {505585F5-2142-4AAD-A90E-50EF186634E0}
 		{81392E35-A04A-41AA-A7A8-234E30D719F8} = {D612C78B-0F8E-4C4E-9D19-4A475EFB849E}
 		{AEFDA629-41B3-4261-A140-F282264B7CB1} = {69738097-B901-4605-B922-7D10699EA7D1}
-		{35C4E571-0A76-4E0B-AB09-B810E7194F23} = {D612C78B-0F8E-4C4E-9D19-4A475EFB849E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C80785DF-B748-44BD-8F3A-EDFE3B5241C0}
